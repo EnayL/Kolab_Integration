@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap");
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: #1b0047;
+}
+
+.gestion {
+  margin-top: 2%;
+}
+.home img {
+  background-position: 90% center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.gestion img {
+  background-position: 90% center;
+  background-repeat: no-repeat;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+/* DESC KOLAB SECTION 3 */
+.kolab {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+  width: 100%;
+  padding-bottom: 1%;
+  height: 95vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.blockfirst {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  width: 60%;
+  padding-bottom: 1%;
+  border-radius: 10px;
+  height: 300px;
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #0e0623;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.quit {
+  margin-left: 0.5%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #6832ff;
+}
+
+.hide {
+  margin-left: 0.5%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #8e65ff;
+}
+
+.zoom {
+  margin-left: 0.5%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #b89cfe;
+}
+
+.barlink {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #1d123f;
+  height: auto;
+}
+
+.barlink p {
+  color: white;
+  font-size: 10px;
+  font-family: "Titillium Web", sans-serif;
+  background-color: #26164f;
+  border-radius: 6px;
+  width: 80%;
+  margin-left: 2%;
+  padding: 1%;
+  padding-left: 2%;
+}
+
+.content {
+  background-color: #13082f;
+  padding-bottom: 20%;
+  padding-top: 5%;
+  border-radius: 0px 0px 10px 10px;
+}
+
+/* CONTENT KOLAB 1 */
+
+.text {
+  width: 60%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 45%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.text h1 {
+  color: white;
+  font-style: bold;
+  font-size: 30px;
+  font-family: "Titillium Web", sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+
+.plateforme {
+  color: #8a2be2;
+  font-family: "Titillium Web", sans-serif;
+  font-style: italic;
+}
+.background {
+  background-color: #37276a;
+  border-radius: 8px;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+
+.arrowbottom {
+  margin-left: 8%;
+  margin-top: 4%;
+}
+
+.vl {
+  border-left: 6px solid #451c94;
+  height: 150px;
+  margin-left: 40%;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-right: 16px solid transparent;
+  border-left: 16px solid transparent;
+  border-top: 30px solid #451c94;
+}
+
+/* BLOCK KOLAB 2 */
+
+.blocksecond {
+  background-color: #13082f;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 46%;
+  height: 300px;
+  padding-bottom: 3%;
+  border-radius: 10px;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+.bar2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #0e0623;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.quit2 {
+  margin-left: 0.5%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #6832ff;
+}
+
+.hide2 {
+  margin-left: 0.5%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #8e65ff;
+}
+
+.zoom2 {
+  margin-left: 0.5%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #b89cfe;
+}
+
+.barlink2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #1d123f;
+  height: auto;
+}
+
+.barlink2 p {
+  color: white;
+  font-size: 10px;
+  font-family: "Titillium Web", sans-serif;
+  background-color: #26164f;
+  border-radius: 6px;
+  width: 80%;
+  margin-left: 2%;
+  padding: 1%;
+  padding-left: 2%;
+}
+
+.contentsecond {
+  background-color: #13082f;
+  padding-bottom: 20%;
+  padding-top: 5%;
+  border-radius: 0px 0px 10px 10px;
+}
+
+/* CONTENT KOLAB 2 */
+
+.contentsecond .text {
+  width: 100%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12%;
+  text-align: center;
+}
+
+.contentsecond .text h1 {
+  color: white;
+  font-style: bold;
+  font-size: 15px;
+  font-family: "Titillium Web", sans-serif;
+  margin: 0;
+}
+
+.contentsecond .text h2 {
+  color: white;
+  font-style: bold;
+  font-size: 15px;
+  max-width: 100%;
+  font-family: "Titillium Web", sans-serif;
+  margin: 0;
+}
+.plateforme {
+  color: #8a2be2;
+  font-family: "Titillium Web", sans-serif;
+  font-style: italic;
+}
+.background {
+  background-color: #37276a;
+  border-radius: 8px;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+
+.contentsecond .text2 h1 {
+  color: white;
+  font-style: bold;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+  margin: 0;
+  margin-top: 5%;
+}
+
+.contentsecond .text2 {
+  border-radius: 6px;
+  background-color: #37276a;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 1041px) {
+  .blocksecond {
+    background-color: #13082f;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    height: 300px;
+    padding-bottom: 3%;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-top: 15%;
+  }
+}
+
+@media (max-width: 814px) {
+  .blocksecond {
+    background-color: #13082f;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    height: 300px;
+    padding-bottom: 3%;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-top: 20%;
+  }
+}
+
+@media (max-width: 664px) {
+  .blocksecond {
+    background-color: #13082f;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    height: 300px;
+    padding-bottom: 3%;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-top: 30%;
+  }
+}
