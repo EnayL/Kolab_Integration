@@ -2,71 +2,117 @@
   <head>
     <meta charset="utf-8" />
     <title>Kolab</title>
+
+    <link href="../header.css" rel="stylesheet" type="text/css" />
+    <link href="../home.css" rel="stylesheet" type="text/css" />
     <link href="../index.css" rel="stylesheet" type="text/css" />
   </head>
 </html>
 
 <body>
-  <section class="home">
-    <img src="../img/home.png" />
-  </section>
+    <header>
+        <nav>
+          <div class="image">
+            <img src="../img/logo.png" alt="logo" />
+          </div>
+          <ul>
+            <div class="connect">
+              <li><a href="">Se connecter</a></li>
+            </div>
+            <li>
+              <form action="" method="get">
+                <button href="">Obtenir une démo</button>
+              </form>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-  <section class="gestion">
-    <img src="../img/gestion.png" />
-  </section>
 
-  <section class="kolab">
-    <div class="container">
-      <div class="blockfirst">
-        <div class="bar">
-          <div class="quit"></div>
-          <div class="hide"></div>
-          <div class="zoom"></div>
-        </div>
-
-        <div class="barlink">
-          <p>kolab.app</p>
-        </div>
-
-        <div class="content">
-          <div class="text">
-            <h1>
-              Kolab, la <span class="plateforme">plateforme</span> qui fait
-              toute la différence dans votre
-              <span class="background">post-production.</span>
-            </h1>
+      <section class="home">
+        <img class="image-slide active" src="../img/photoeffets.com_.jpg" />
+        <img class="image-slide" src="../img/3.jpg" alt="3" />
+        <img class="image-slide" src="../img/2.png" alt="2" />
+  
+        <div class="contenthome">
+          <h1>Doutez de tout, sauf de vous.</h1>
+          <h2>Créez maintenant.</h2>
+          <p>On s'assure du reste.</p>
+  
+          <div class="slider-navigation">
+            <div class="nav-btn active"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
           </div>
         </div>
-      </div>
-      <div class="arrowbottom">
-        <div class="vl"></div>
-        <div class="arrow-down"></div>
-      </div>
-    </div>
+        <div class="footer">
+            <h1>Jean Dawson - Starface</h1>
+            <p>réalisé par Megaforce</p>
+          </div>
+      </section>
 
-    <div class="blocksecond">
-      <div class="bar2">
-        <div class="quit2"></div>
-        <div class="hide2"></div>
-        <div class="zoom2"></div>
-      </div>
 
-      <div class="barlink2">
-        <p>kolab.app</p>
-      </div>
+      <section class="gestion">
+        <img src="../img/gestion.png" />
+      </section>
 
-      <div class="contentsecond">
-        <div class="text">
-          <h1>Kolab a ré-imaginé les outils de</h1>
-          <h2>
-            gestion,de planification et de recrutement pour vos projets vidéos.
-          </h2>
+
+      <section class="kolab">
+        <div class="container">
+          <div class="blockfirst">
+            <div class="bar">
+              <div class="quit"></div>
+              <div class="hide"></div>
+              <div class="zoom"></div>
+            </div>
+    
+            <div class="barlink">
+              <p>kolab.app</p>
+            </div>
+    
+            <div class="content">
+              <div class="text">
+                <h1>
+                  Kolab, la <span class="plateforme">plateforme</span> qui fait
+                  toute la différence dans votre
+                  <span class="background">post-production.</span>
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="arrowbottom">
+            <div class="vl"></div>
+            <div class="arrow-down"></div>
+          </div>
         </div>
-
-        <div class="text2">
-          <h1>Du montage à l’étalonnage.</h1>
+    
+        <div class="blocksecond">
+          <div class="bar2">
+            <div class="quit2"></div>
+            <div class="hide2"></div>
+            <div class="zoom2"></div>
+          </div>
+    
+          <div class="barlink2">
+            <p>kolab.app</p>
+          </div>
+    
+          <div class="contentsecond">
+            <div class="text">
+              <h1>Kolab a ré-imaginé les outils de</h1>
+              <h2>
+                gestion,de planification et de recrutement pour vos projets vidéos.
+              </h2>
+            </div>
+    
+            <div class="text2">
+              <h1>Du montage à l’étalonnage.</h1>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
+    
+
 </body>
+<script src="../carousel.js"></script>
+</html>

@@ -7,15 +7,7 @@ body {
 }
 
 .gestion {
-  margin-top: 2%;
-}
-.home img {
-  background-position: 90% center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100vw;
-  height: 100vh;
-  background-attachment: fixed;
+  margin-top: 750px;
 }
 
 .gestion img {
@@ -29,13 +21,14 @@ body {
 }
 
 /* DESC KOLAB SECTION 3 */
+
 .kolab {
   display: flex;
   flex-direction: column;
   margin-top: 4%;
   width: 100%;
   padding-bottom: 1%;
-  height: 95vh;
+  height: 96vh;
 }
 
 .container {
@@ -113,7 +106,7 @@ body {
   border-radius: 0px 0px 10px 10px;
 }
 
-/* CONTENT KOLAB 1 */
+/* CONTENT KOLAB 1  CSS CONTENT */
 
 .text {
   width: 60%;
@@ -172,7 +165,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 46%;
+  width: 48%;
   height: 300px;
   padding-bottom: 3%;
   border-radius: 10px;
@@ -236,12 +229,11 @@ body {
 
 .contentsecond {
   background-color: #13082f;
-  padding-bottom: 20%;
-  padding-top: 5%;
+  padding-bottom: 10%;
   border-radius: 0px 0px 10px 10px;
 }
 
-/* CONTENT KOLAB 2 */
+/* CONTENT KOLAB 2  CSS CONTENT */
 
 .contentsecond .text {
   width: 100%;
@@ -298,6 +290,119 @@ body {
   margin-right: auto;
 }
 
+/* SLIDER HOME PAGE */
+
+section .contenthome {
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+  right: 0;
+}
+
+section .contenthome h1 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-family: "Titillium Web", sans-serif;
+  margin: 0;
+}
+
+section .contenthome h2 {
+  text-align: center;
+  font-size: 35px;
+  color: #8a2be2;
+  font-family: "Titillium Web", sans-serif;
+  margin: 0;
+}
+
+section .contenthome p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Titillium Web", sans-serif;
+  margin: 0;
+}
+
+.footer h1 {
+  color: white;
+  font-size: 15px;
+  font-family: "Titillium Web", sans-serif;
+  margin: 0;
+  font-style: bold;
+}
+
+.footer p {
+  color: #8a2be2;
+  font-size: 15px;
+  font-family: "Titillium Web", sans-serif;
+  margin: 0;
+  font-style: bold;
+}
+
+.footer {
+  position: absolute;
+  bottom: 5%;
+  margin-left: 2%;
+}
+
+.home img {
+  z-index: 000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  background-position: 90% center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.slider-navigation {
+  z-index: 888;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(80px);
+  margin-bottom: 12px;
+}
+
+.slider-navigation .nav-btn {
+  background-color: #8d34e0bb;
+  width: 2%;
+  height: 6px;
+  border-radius: 40%;
+  cursor: pointer;
+  box-shadow: 0 0 2px whitesmoke;
+  transition: 0, 3s ease;
+}
+
+.slider-navigation .nav-btn:not(:last-child) {
+  margin-right: 20px;
+}
+
+.slider-navigation .nav-btn:hover {
+  transform: scale(1.2);
+}
+
+.slider-navigation .nav-btn.active {
+  background-color: #8a2be2;
+  width: 3%;
+  border-radius: 40%;
+  height: 8px;
+}
+
+.image-slide {
+  position: absolute;
+  width: 100%;
+  clip-path: circle(0% at 0 50%);
+}
+
+.image-slide.active {
+  clip-path: circle(150% at 0 50%);
+}
+
 @media (max-width: 1041px) {
   .blocksecond {
     background-color: #13082f;
@@ -313,6 +418,7 @@ body {
   }
 }
 
+/* RESPONCIVE DE LA SECTION 3 "KOLAB"*/
 @media (max-width: 814px) {
   .blocksecond {
     background-color: #13082f;
@@ -340,5 +446,20 @@ body {
     border-radius: 10px;
     margin-left: 40%;
     margin-top: 30%;
+  }
+}
+
+@media (max-width: 414px) {
+  .blocksecond {
+    background-color: #13082f;
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    height: 300px;
+    padding-bottom: 3%;
+    border-radius: 10px;
+    margin-top: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
